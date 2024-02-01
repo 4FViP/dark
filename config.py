@@ -5,7 +5,7 @@ import requests
 from database import get_db_general_rtb
 from utils import get_restarted
 
-super_sudoers = [6199134030]
+super_sudoers = [6110080048]
 
 
 ####################################################################################
@@ -18,9 +18,9 @@ if wr is None:
         fileSize = os.path.getsize("info.json")
         if fileSize == 0:
             
-            tokenBot = '6189589391:AAGaZH72sCLB7tCWh1_BCjeZvmmCxSXu-_I' 
+            tokenBot = '5901305358:AAHOHcXnKMc3MiRBLt0t-dVwTBXJB8INqFA' 
             
-            idSudo = 6199134030 
+            idSudo = 6110080048
 
             aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
             jsonString = json.dumps(aDict)
@@ -29,9 +29,9 @@ if wr is None:
             jsonFile.close()
     else:
         
-        tokenBot = '6189589391:AAGaZH72sCLB7tCWh1_BCjeZvmmCxSXu-_I'
+        tokenBot = '5901305358:AAHOHcXnKMc3MiRBLt0t-dVwTBXJB8INqFA'
         
-        idSudo = 6199134030
+        idSudo = 6110080048
 
         aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
         jsonString = json.dumps(aDict)
